@@ -1,0 +1,9 @@
+﻿  LR5.cpp
+C:\Users\Sofja\Desktop\VS projects\c++\ООП\LR5\LR5\LR5.cpp(112,21): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\Sofja\Desktop\VS projects\c++\ООП\LR5\LR5\LR5.cpp(244,25): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\Sofja\Desktop\VS projects\c++\ООП\LR5\LR5\LR5.cpp(248,20): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\Sofja\Desktop\VS projects\c++\ООП\LR5\LR5\LR5.cpp(256,40): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\Sofja\Desktop\VS projects\c++\ООП\LR5\LR5\LR5.cpp(328,62): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\Sofja\Desktop\VS projects\c++\ООП\LR5\LR5\LR5.cpp(332,24): warning C4305: аргумент: усечение из "double" в "float"
+C:\Users\Sofja\Desktop\VS projects\c++\ООП\LR5\LR5\LR5.cpp(335,16): warning C4305: аргумент: усечение из "double" в "float"
+  LR5.vcxproj -> C:\Users\Sofja\Desktop\VS projects\c++\ООП\LR5\Debug\LR5.exe
