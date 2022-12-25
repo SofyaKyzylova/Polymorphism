@@ -6,7 +6,7 @@
 
 using namespace std;
 
-class Shape 
+class Shape //абстрактный класс
 {
 private:
 	string Name;
