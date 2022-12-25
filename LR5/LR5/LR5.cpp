@@ -17,10 +17,10 @@ public:
 
 	static float SumArea(Shape* F[]);
 
-	virtual void Dx(float dx) = 0;            //перемещение
-	virtual void Mult(float t) = 0;           //масштабирование
-	virtual string Show() = 0;                //характеристики
-	virtual string showAtr() = 0;             //атрибуты
+	virtual void Dx(float dx) = 0;            
+	virtual void Mult(float t) = 0;           
+	virtual string Show() = 0;                
+	virtual string showAtr() = 0;             
 };
 
 void Shape::SetName(string s)
@@ -295,7 +295,7 @@ int main()
 	Circle* C = new Circle;
 	Shape* F[5]; 
 
-	Tr->SetName("Треугольник 1");/*
+	Tr->SetName("Треугольник 1");
 	cout << Tr->GetName() << endl;
 	cout << "Сторона ab: " << Tr->getAb() << endl;
 	cout << "Сторона ac: " << Tr->getAc() << endl;
@@ -309,11 +309,11 @@ int main()
 	cout << "Косинус А: " << Tr->cosA() << endl;
 	cout << "Косинус B: " << Tr->cosB() << endl;
 	cout << "Косинус C: " << Tr->cosC() << endl;
-	cout << endl;*/
+	cout << endl;
 
 
 	C->SetName("Окружность 1"); 
-	C->SetRad(5);/*
+	C->SetRad(5);
 	cout << C->GetName() << endl;
 	cout << "Радиус: " << C->getRad() << endl;
 	cout << "Площадь: " << C->area() << endl;
@@ -323,7 +323,7 @@ int main()
 	float n;
 	cin >> n;
 	cout << "Площадь сектора с центальным углом " << n << " : " << C->sectorArea(n) << endl;
-	cout << endl;*/
+	cout << endl;
 
 	Triangle* Tr1 = new Triangle(-0.1, -2.4, 3.1, 2.7, 1.8, 3.9);
 	Tr1->SetName("Треугольник 2");
