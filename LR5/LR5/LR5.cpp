@@ -23,14 +23,8 @@ public:
 	virtual string showAtr() = 0;             
 };
 
-void Shape::SetName(string s)
-{
-	Name = s;
-}
-string Shape::GetName()
-{
-	return Name;
-}
+void Shape::SetName(string s) { Name = s; }
+string Shape::GetName() { return Name; }
 float Shape::SumArea(Shape* F[])
 {
 	float sum = 0;
